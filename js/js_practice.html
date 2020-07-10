@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>java script </title>
+		<style type="text/css">
+		.main
+		{
+			display: flex;
+			justify-content: center;
+		}
+		#first,#second
+		{
+			width: 30%;
+			border: 1px solid black;
+			padding: 3%;
+			margin: 1%;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="main">     
+		<div id="first">
+     	   A
+     	   <p>docuent.querySelectorAll("#idname" or ".classname" or "tagname") is used for selecting any type in the javascriptd</p>
+     </div>
+
+     <div id="second">
+     	B
+     	<p>if we use .innerHTML="".then the matter in that divison will change</p>
+     </div>
+ </div>
+ <div class="main">
+ 	
+ </div>
+</body>
+</html>
+<script type="text/javascript">
+		document.write("Hello world");
+		var fi=document.getElementById("first");
+		console.log(fi);
+		var classname=document.getElementsByClassName("main");
+		console.log(classname[0]);
+		console.log(classname[1]);
+		var tagattribute=document.getElementsByTagName("body");
+		console.log(tagattribute[0]);
+		var common=document.querySelectorAll("#first");
+		console.log(common);
+		var matter=document.getElementById("second").innerHTML;
+		console.log(matter);
+   document.getElementById("second").innerHTML="Hello Everyone";
+   var heading=document.createElement("h2");
+   heading.textContent="Sample Heading";
+   console.log(heading);
+	</script>
