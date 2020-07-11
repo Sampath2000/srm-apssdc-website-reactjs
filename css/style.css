@@ -19,33 +19,63 @@
 .e
 {
         font-size: 68px;
-        padding: 20px;
+        
 }
 .f
 {
-   font-size: 100px;
+  
    color: red;
-   padding-left: 24%
+   text-align: center;
+   font-size: 125px;
 
 }
-.a
-{
-    display: flex;
-    flex-wrap: wrap;
-    }
 .h{
-    font-size: 70px;
+    font-size: 90px;
     background-color: lightgreen;
+
 }
 .m
 {
-    font-size: 67px;
+    font-size: 70px;
 }
-@media screen and (max-width:2048) {
-  .a {
-    width:30%; 
+.a{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+}
+
+.b{
+  width: 32%;
+  padding: 1%;
+  border: 1px solid #ddd;
+  box-shadow: 0px 8px 8px -8px #000;
+  margin: 2%;
+
+}
+
+.child{
+  width: 52%;
+  padding: 1%;
+  margin: 2%;
+  border: 1px solid #ddd;
+  box-shadow: 0px 8px 8px -8px #000;
+
+}
+@media only screen and (min-width:1024px) and (max-width: 2048px){
+  .b{
+     {
+      width: 100px; 
+      float: left;
+      font-size: 20px
+     }
+  .child {
+    margin-left: 216px;
+    font-size: 25px
   }
-}
+    
+ }
+
+
 
 
 
