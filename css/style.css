@@ -65,20 +65,7 @@
   box-shadow: 0px 8px 8px -8px #000;
 
 }
-@media only screen and (min-width:1024px) and (max-width: 2048px){
-  .b{
-     {
-      width: 100px; 
-      float: left;
-      font-size: 20px
-     }
-  .child {
-    margin-left: 216px;
-    font-size: 25px
-  }
-  
-    
- }
+
  @media only screen and (min-width:320px) and (max-width:375px){
     .b{
         width:100%;
@@ -88,8 +75,12 @@
     .child{
         width: 100%;
     }
-
-    
+  .p1 p,.p2 p,.p3 p{
+        line-height: normal;
+    }
+  .c{
+    height: auto;
+  }
 }
 @media only screen and (min-width:376px) and (max-width:767px){
     .b{
@@ -99,8 +90,13 @@
     .child{
         width: 100%;
     }
+.p1 p,.p2 p,.p3 p{
+        line-height: normal;
+    }
 
-    
+    .c{
+    height: auto;
+  }
 }
 
 @media only screen and (min-width:768px) and (max-width:992px){

@@ -8,6 +8,7 @@
 			"profession" : "Student",
 			"adress" : "vijayawada,Andra Pradesh"
 		},
+		
 		"details " : {
                "name" : "hello",
                "email" : "hello@gmail.com",
@@ -15,7 +16,8 @@
                 "adress" : "1-town,vijayawada",
                 "profession" : "Student"
 		}
-
+     
 	}
- ]
+
+  ]
 }
