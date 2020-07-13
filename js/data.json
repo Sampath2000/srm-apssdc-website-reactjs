@@ -1,5 +1,6 @@
 {
-	"profile":{
+	"profile":[
+		{
 		"bascis":{
 			"name" : "Puvvada sampath",
 			"email" : "puvvada.sampath2000@gmail.com", 
@@ -8,8 +9,13 @@
 			"adress" : "vijayawada,Andra Pradesh"
 		},
 		"details " : {
-
+               "name" : "hello",
+               "email" : "hello@gmail.com",
+                "phone" : "5466656656",
+                "adress" : "1-town,vijayawada",
+                "profession" : "Student"
 		}
 
 	}
+ ]
 }

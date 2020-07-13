@@ -10,9 +10,10 @@ fetch('data.json').then(response=>{
 	var child_two=document.querySelector(".child_two");
     
     var profile=(basic_info)=>{
+    	basic_info.map(i,index)=>{
 	// console.log(basic_info.name);
 	var name=document.createElement("h2");
-	name.textContent=basic_info.name;
+	name.textContent= i.basic_info.name;
 	child_one.append(name);
 
 	var profession=document.createElement("h4");
@@ -42,6 +43,7 @@ fetch('data.json').then(response=>{
 	var adress=document.createElement("p");
 	adress.textContent=basic_info.adress;
 	child_one.append(adress);
+ }
 }
 
 	
