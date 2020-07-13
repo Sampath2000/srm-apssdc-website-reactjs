@@ -5,11 +5,15 @@
 }
 .c
 {
+<<<<<<< HEAD
         font-size: 20px;
 }
 .w
 {
   font-size: 25px;
+=======
+        font-size: 10px;
+>>>>>>> 48737bc94414070764e964e199c3570a7b3af514
 }
 .icon
 {
@@ -19,11 +23,15 @@
 }
 .d
 {
- font-size: 70px;
+ font-size: 20px;
 }
 .e
 {
+<<<<<<< HEAD
         font-size: 27px;
+=======
+        font-size: 15px;
+>>>>>>> 48737bc94414070764e964e199c3570a7b3af514
         
 }
 .f
@@ -31,7 +39,12 @@
   
    color: red;
    text-align: center;
+<<<<<<< HEAD
    
+=======
+   font-size: 40px;
+
+>>>>>>> 48737bc94414070764e964e199c3570a7b3af514
 }
 .h{
     font-size: 40px;
