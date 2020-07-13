@@ -79,10 +79,7 @@
     .child{
         width: 100%;
     }
-  .p1 p,.p2 p,.p3 p,.p4 a,{
-        line-height: normal;
-    }
-  }
+
 @media only screen and (min-width:376px) and (max-width:767px){
     .b{
         width:100%;
@@ -91,11 +88,6 @@
     .child{
         width: 100%;
     }
-.p1 p,.p2 p,.p3 p,.p4 a,{
-        line-height: normal;
-    }
-
-   
 }
 
 @media only screen and (min-width:768px) and (max-width:992px){
