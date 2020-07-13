@@ -65,17 +65,7 @@
   box-shadow: 0px 8px 8px -8px #000;
 
 }
-@media only screen and (min-width:1024px) and (max-width: 2048px){
-  .b{
-     {
-      width: 100px; 
-      float: left;
-      font-size: 20px
-     }
-  .child {
-    margin-left: 216px;
-    font-size: 25px
-  }
+
   
     
  }
