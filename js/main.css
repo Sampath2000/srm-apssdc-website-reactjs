@@ -35,6 +35,12 @@ header{
 	color: #d6d4d2;
 	font-style: italic;
 }
+.link
+{
+	text-decoration: none;
+	word-wrap: break-word;
+	display: block;
+}
 
 
 /*Responsive ness*/
