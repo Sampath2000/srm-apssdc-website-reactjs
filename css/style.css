@@ -53,7 +53,7 @@
 }
 
 .b{
-  width: 34%;
+  width: 30%;
   padding: 1%;
   border: 1px solid black;
   box-shadow: 0px 8px 8px -8px #000;
@@ -62,7 +62,7 @@
 }
 
 .child{
-  width:56%;
+  width:60%;
   padding: 1%;
   margin: 1%;
   border: 1px solid black;
@@ -105,14 +105,10 @@
         word-wrap: break-word;
 
     }
-<<<<<<< HEAD
 
 
     
 }
-=======
-  }
->>>>>>> 8fca6d7450afce341912dbdd3f22549362878380
 
 
 
