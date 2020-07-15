@@ -6,6 +6,7 @@ fetch('data.json').then(response=>{
        profile(data.profile.bascis);
        details(data.profile.details);
 	})
+	
 	var child_one=document.querySelector(".child_one");
 	var child_two=document.querySelector(".child_two");
     
@@ -45,9 +46,38 @@ fetch('data.json').then(response=>{
  }
    var details=(details_info)=>{
    //console.log(details_info);
-   var summaryheading=document.createElement("h2");
-   summaryheading.textContent="Summary";
-   var hr1=document.createElement("hr");
-   child_two.append(summaryheading);
-   child_two.append(hr1)
+
+   var summaryHeading=document.createElement("h2");
+	summaryHeading.textContent="Summary";
+	var hr1=document.createElement("hr");
+	child_two.append(summaryHeading);
+	child_two.append(hr1);
+
+	var list=document.createElement("ul");
+	details_info.summary.map(i=>{
+		var listitem=document.createElement("li");
+		listitem.textContent=i;
+		list.append(listitem);
+	})
+
+	child_two.append(list);
+
+	var skillHeading=document.createElement("h2");
+	skillHeading.textContent="Skills";
+	child_two.append(skillHeading);
+	var skill_hr1=document.createElement("hr");
+	child_two.append(skill_hr1);
+
+	details_info.skills.map(j=>{
+		var skillType=document.createElement("h3");
+		skillType.textContent=j.type;
+		child_two.append(skillType);
+
+		j.values.map(j_value=>{
+			var skillValue=document.createElement("span");
+			skillValue.textContent=j_value;
+			skillValue.classList.add("skill");
+			child_two.append(skillValue);
+		})
+	})
 }

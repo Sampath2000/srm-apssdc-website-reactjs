@@ -9,8 +9,51 @@
 			"adress" : "vijayawada,Andra Pradesh"
 		},
 		
-		"details " : {
-             		
-             		}
-        }
+		"details": {
+			"summary" : [
+			      "Undergoing bachelor degree in cse",
+			      "Having knowledge on front-end development",
+			      "Having practical exposure or backend technology",
+			      "focused on programming laguages in java,c,c++"
+
+			],
+			"education" : [
+                  {
+                  	"degree" : "Computer Science & Engineering",
+                  	"institute" : "Srm University (2018-2022)",
+                  	"percentage" : "90%"
+                  },
+                  {
+                  	"degree" : "Intermediate",
+                  	"institute" : "Sarada educational institutions(2016-2018)",
+                  	"percentage" : "90%"
+                  },
+                  {
+                  	"degree" : "Schooling",
+                  	"institute" : "Nalanda vidya niketan(2016)",
+                  	"percentage" : "90%"
+                  }
+			],
+                   
+			"skills":[
+				{
+					"type":"Programming Languages",
+					"values":["C","C++","Java"]
+				},
+				{
+					"type":"Web Technologies",
+					"values":["HTML","CSS","JavaScript"]
+				},
+				{
+					"type":"Frameworks",
+					"values":["Bootstrap","Reactjs","Express"]
+				},
+				{
+					"type":"Databases",
+					"values":["Oracle","mysql","sqLite","mongo"]
+				}
+			]
+
+	     }
+     }
 }

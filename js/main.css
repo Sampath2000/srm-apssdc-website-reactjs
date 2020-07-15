@@ -21,6 +21,7 @@ header{
 	border: 1px solid #ddd;
 	box-shadow: 0px 8px 8px -8px #000;
 	margin: 1%;
+	height: 200px;
 }
 
 .child_two{
@@ -29,6 +30,7 @@ header{
 	margin: 1%;
 	border: 1px solid #ddd;
 	box-shadow: 0px 8px 8px -8px #000;
+
 }
 
 .role{
@@ -41,7 +43,15 @@ header{
 	word-wrap: break-word;
 	display: block;
 }
-
+.skill{
+	margin: 1%;
+	padding: 1%;
+	border-radius: 10px;
+	box-shadow: 0px 8px 8px -8px #000;
+	background: #424cb4;
+	color: #fff;
+	border: 1px solid #1c2363;
+}
 
 /*Responsive ness*/
 /*Small scale devices*/
@@ -54,11 +64,6 @@ header{
 	}
 }
 
-.role
-{
-	color: #d6d4d2;
-	font-style: italic;
-}
 @media only screen and (min-width: 481px) and (max-width:768px){
 	.child_one,
 	.child_two{
